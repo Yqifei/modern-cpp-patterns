@@ -45,3 +45,4 @@ endfunction()
 
 add_subdirectory(modules/01_type_erasure)
 add_subdirectory(modules/02_crtp_nvi)
+add_subdirectory(modules/03_raii_copy_swap)
