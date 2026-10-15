@@ -1,0 +1,25 @@
+# CLion / CMake 构建目录
+cmake-build-*/
+build/
+out/
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.so
+*.pdb
+
+# Qt AUTOMOC/AUTOUIC 生成物
+*_autogen/
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# IDE
+.idea/
+.vscode/
+*.user
