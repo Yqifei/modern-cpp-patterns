@@ -9,7 +9,7 @@ set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_PREFIX_PATH "E:/Qt/6.5.3/mingw_64")
 
-find_package(Qt6 COMPONENTS Core REQUIRED)
+find_package(Qt6 COMPONENTS Core Widgets REQUIRED)
 
 # 将 Qt 运行库和平台插件拷贝到目标目录，保证产物可直接运行
 function(designcode_deploy_runtime TARGET_NAME)
@@ -52,3 +52,4 @@ add_subdirectory(modules/06_null_object)
 add_subdirectory(modules/07_object_pool)
 add_subdirectory(modules/08_event_bus)
 add_subdirectory(modules/09_pipeline_filter)
+add_subdirectory(modules/10_mvc_mvvm)
